@@ -122,7 +122,9 @@ enum plotstate PlotState = Accelerometer;
 #define EWMACOLOR   LCD_CYAN
 #define SOUNDCOLOR  LCD_CYAN
 #define LIGHTCOLOR  LCD_LIGHTGREEN
-#define JOYCOLOR 		LCD_MAGENTA
+#define JOYCOLORX		LCD_MAGENTA
+#define JOYCOLORY		LCD_BLUE
+#define JOYCOLORSEL	LCD_GREY
 #define TOPTXTCOLOR LCD_WHITE
 #define TOPNUMCOLOR LCD_ORANGE
 //------------ end of Global variables shared between tasks -------------
@@ -409,7 +411,7 @@ void drawaxes(void){
   } else if(PlotState == Light){
     BSP_LCD_Drawaxes(AXISCOLOR, BGCOLOR, "Time", "Light", LIGHTCOLOR, "", 0, LIGHT_MAX, LIGHT_MIN);
   } else if(PlotState == Joystick) {
-		BSP_LCD_Drawaxes(AXISCOLOR, BGCOLOR, "Time", "Joystick", JOYCOLOR, "", 0, JOY_MAX, JOY_MIN);
+		BSP_LCD_Drawaxes(AXISCOLOR, BGCOLOR, "Time", "Joystick", JOYCOLORSEL, "", 0, JOY_MAX, JOY_MIN);
 	}
 }
 
@@ -459,7 +461,9 @@ void Task4(void){
     BSP_LCD_PlotPoint(LightData, LIGHTCOLOR);
 	} else if (PlotState == Joystick) {
 		//*******YOU DEFINE THIS FUNCTION********
-		BSP_LCD_PlotPoint(y, JOYCOLOR);
+		BSP_LCD_PlotPoint(x, JOYCOLORX);
+		BSP_LCD_PlotPoint(y, JOYCOLORY);
+		BSP_LCD_PlotPoint(select*10, JOYCOLORSEL);
 	}
   BSP_LCD_PlotIncrement();
 }
@@ -497,10 +501,10 @@ void Task5(void){
 
   BSP_LCD_SetCursor(5,  0); BSP_LCD_OutUDec4(Time,          TOPNUMCOLOR);
   BSP_LCD_SetCursor(5,  1); BSP_LCD_OutUDec4(Steps,         MAGCOLOR);
-	BSP_LCD_SetCursor(5, 	2); BSP_LCD_OutUDec4(x, 						JOYCOLOR);
+	BSP_LCD_SetCursor(5, 	2); BSP_LCD_OutUDec4(x, 						JOYCOLORX);
   BSP_LCD_SetCursor(16, 0); BSP_LCD_OutUDec4(LightData/100, LIGHTCOLOR);
   BSP_LCD_SetCursor(16, 1); BSP_LCD_OutUDec4(SoundRMS,      SOUNDCOLOR);
-	BSP_LCD_SetCursor(16, 	2); BSP_LCD_OutUDec4(y, 					JOYCOLOR);
+	BSP_LCD_SetCursor(16, 	2); BSP_LCD_OutUDec4(y, 					JOYCOLORY);
 	
 }
 /* ****************************************** */

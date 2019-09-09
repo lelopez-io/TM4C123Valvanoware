@@ -638,61 +638,61 @@ Image Symbol Table
     i.Task3                                  0x000026cc   Section        0  lab1.o(i.Task3)
     i.Task3_Init                             0x0000280c   Section        0  lab1.o(i.Task3_Init)
     i.Task4                                  0x00002828   Section        0  lab1.o(i.Task4)
-    i.Task4_Init                             0x000028d0   Section        0  lab1.o(i.Task4_Init)
-    i.Task5                                  0x000028f8   Section        0  lab1.o(i.Task5)
-    i.Task5_Init                             0x000029b0   Section        0  lab1.o(i.Task5_Init)
-    i.TaskC                                  0x00002a30   Section        0  lab1.o(i.TaskC)
-    i.TaskC_Init                             0x00002a60   Section        0  lab1.o(i.TaskC_Init)
-    i.UART_Init                              0x00002a68   Section        0  texas.o(i.UART_Init)
-    i.UART_OutChar                           0x00002b0c   Section        0  texas.o(i.UART_OutChar)
-    i.UART_OutString                         0x00002b24   Section        0  texas.o(i.UART_OutString)
-    i.UART_OutUDec                           0x00002b3c   Section        0  texas.o(i.UART_OutUDec)
-    i.UART_OutUDec5                          0x00002b68   Section        0  texas.o(i.UART_OutUDec5)
-    i.UART_OutUDec7                          0x00002bac   Section        0  texas.o(i.UART_OutUDec7)
-    i.UART_OutUFix1                          0x00002bf0   Section        0  texas.o(i.UART_OutUFix1)
-    i.WideTimer3A_Handler                    0x00002c20   Section        0  bsp.o(i.WideTimer3A_Handler)
-    i.WideTimer4A_Handler                    0x00002c38   Section        0  bsp.o(i.WideTimer4A_Handler)
-    i.WideTimer5A_Handler                    0x00002c50   Section        0  bsp.o(i.WideTimer5A_Handler)
-    i.adcinit                                0x00002c68   Section        0  bsp.o(i.adcinit)
-    adcinit                                  0x00002c69   Thumb Code    58  bsp.o(i.adcinit)
-    i.commandList                            0x00002cb4   Section        0  bsp.o(i.commandList)
-    commandList                              0x00002cb5   Thumb Code    86  bsp.o(i.commandList)
-    i.commonInit                             0x00002d0c   Section        0  bsp.o(i.commonInit)
-    commonInit                               0x00002d0d   Thumb Code   452  bsp.o(i.commonInit)
-    i.drawaxes                               0x00002f10   Section        0  lab1.o(i.drawaxes)
-    i.fillmessage                            0x00003010   Section        0  bsp.o(i.fillmessage)
-    fillmessage                              0x00003011   Thumb Code    64  bsp.o(i.fillmessage)
-    i.fillmessage4                           0x00003058   Section        0  bsp.o(i.fillmessage4)
-    fillmessage4                             0x00003059   Thumb Code    90  bsp.o(i.fillmessage4)
-    i.fillmessage5b                          0x000030bc   Section        0  texas.o(i.fillmessage5b)
-    fillmessage5b                            0x000030bd   Thumb Code   116  texas.o(i.fillmessage5b)
-    i.fillmessage7b                          0x0000313c   Section        0  texas.o(i.fillmessage7b)
-    fillmessage7b                            0x0000313d   Thumb Code   174  texas.o(i.fillmessage7b)
-    i.fillmessageb                           0x00003200   Section        0  texas.o(i.fillmessageb)
-    fillmessageb                             0x00003201   Thumb Code    64  texas.o(i.fillmessageb)
-    i.i2cinit                                0x00003248   Section        0  bsp.o(i.i2cinit)
-    i2cinit                                  0x00003249   Thumb Code   126  bsp.o(i.i2cinit)
-    i.lightsensorend                         0x000032dc   Section        0  bsp.o(i.lightsensorend)
-    lightsensorend                           0x000032dd   Thumb Code    80  bsp.o(i.lightsensorend)
-    i.lightsensorstart                       0x0000332c   Section        0  bsp.o(i.lightsensorstart)
-    lightsensorstart                         0x0000332d   Thumb Code    36  bsp.o(i.lightsensorstart)
-    i.main                                   0x00003350   Section        0  lab1.o(i.main)
-    i.pushColor                              0x000033e0   Section        0  bsp.o(i.pushColor)
-    pushColor                                0x000033e1   Thumb Code    18  bsp.o(i.pushColor)
-    i.setAddrWindow                          0x000033f4   Section        0  bsp.o(i.setAddrWindow)
-    setAddrWindow                            0x000033f5   Thumb Code   106  bsp.o(i.setAddrWindow)
-    i.sqrt32                                 0x00003468   Section        0  lab1.o(i.sqrt32)
-    i.writecommand                           0x00003488   Section        0  bsp.o(i.writecommand)
-    writecommand                             0x00003489   Thumb Code    62  bsp.o(i.writecommand)
-    i.writedata                              0x000034d0   Section        0  bsp.o(i.writedata)
-    writedata                                0x000034d1   Thumb Code    64  bsp.o(i.writedata)
-    .constdata                               0x00003518   Section     1403  bsp.o(.constdata)
-    Font                                     0x00003518   Data        1275  bsp.o(.constdata)
-    Rcmd1                                    0x00003a13   Data          59  bsp.o(.constdata)
-    Rcmd2green                               0x00003a4e   Data          13  bsp.o(.constdata)
-    Rcmd2red                                 0x00003a5b   Data          13  bsp.o(.constdata)
-    Rcmd3                                    0x00003a68   Data          43  bsp.o(.constdata)
-    .constdata                               0x00003a94   Section       72  texas.o(.constdata)
+    i.Task4_Init                             0x000028f4   Section        0  lab1.o(i.Task4_Init)
+    i.Task5                                  0x0000291c   Section        0  lab1.o(i.Task5)
+    i.Task5_Init                             0x000029d0   Section        0  lab1.o(i.Task5_Init)
+    i.TaskC                                  0x00002a50   Section        0  lab1.o(i.TaskC)
+    i.TaskC_Init                             0x00002a6c   Section        0  lab1.o(i.TaskC_Init)
+    i.UART_Init                              0x00002a74   Section        0  texas.o(i.UART_Init)
+    i.UART_OutChar                           0x00002b18   Section        0  texas.o(i.UART_OutChar)
+    i.UART_OutString                         0x00002b30   Section        0  texas.o(i.UART_OutString)
+    i.UART_OutUDec                           0x00002b48   Section        0  texas.o(i.UART_OutUDec)
+    i.UART_OutUDec5                          0x00002b74   Section        0  texas.o(i.UART_OutUDec5)
+    i.UART_OutUDec7                          0x00002bb8   Section        0  texas.o(i.UART_OutUDec7)
+    i.UART_OutUFix1                          0x00002bfc   Section        0  texas.o(i.UART_OutUFix1)
+    i.WideTimer3A_Handler                    0x00002c2c   Section        0  bsp.o(i.WideTimer3A_Handler)
+    i.WideTimer4A_Handler                    0x00002c44   Section        0  bsp.o(i.WideTimer4A_Handler)
+    i.WideTimer5A_Handler                    0x00002c5c   Section        0  bsp.o(i.WideTimer5A_Handler)
+    i.adcinit                                0x00002c74   Section        0  bsp.o(i.adcinit)
+    adcinit                                  0x00002c75   Thumb Code    58  bsp.o(i.adcinit)
+    i.commandList                            0x00002cc0   Section        0  bsp.o(i.commandList)
+    commandList                              0x00002cc1   Thumb Code    86  bsp.o(i.commandList)
+    i.commonInit                             0x00002d18   Section        0  bsp.o(i.commonInit)
+    commonInit                               0x00002d19   Thumb Code   452  bsp.o(i.commonInit)
+    i.drawaxes                               0x00002f1c   Section        0  lab1.o(i.drawaxes)
+    i.fillmessage                            0x0000301c   Section        0  bsp.o(i.fillmessage)
+    fillmessage                              0x0000301d   Thumb Code    64  bsp.o(i.fillmessage)
+    i.fillmessage4                           0x00003064   Section        0  bsp.o(i.fillmessage4)
+    fillmessage4                             0x00003065   Thumb Code    90  bsp.o(i.fillmessage4)
+    i.fillmessage5b                          0x000030c8   Section        0  texas.o(i.fillmessage5b)
+    fillmessage5b                            0x000030c9   Thumb Code   116  texas.o(i.fillmessage5b)
+    i.fillmessage7b                          0x00003148   Section        0  texas.o(i.fillmessage7b)
+    fillmessage7b                            0x00003149   Thumb Code   174  texas.o(i.fillmessage7b)
+    i.fillmessageb                           0x0000320c   Section        0  texas.o(i.fillmessageb)
+    fillmessageb                             0x0000320d   Thumb Code    64  texas.o(i.fillmessageb)
+    i.i2cinit                                0x00003254   Section        0  bsp.o(i.i2cinit)
+    i2cinit                                  0x00003255   Thumb Code   126  bsp.o(i.i2cinit)
+    i.lightsensorend                         0x000032e8   Section        0  bsp.o(i.lightsensorend)
+    lightsensorend                           0x000032e9   Thumb Code    80  bsp.o(i.lightsensorend)
+    i.lightsensorstart                       0x00003338   Section        0  bsp.o(i.lightsensorstart)
+    lightsensorstart                         0x00003339   Thumb Code    36  bsp.o(i.lightsensorstart)
+    i.main                                   0x0000335c   Section        0  lab1.o(i.main)
+    i.pushColor                              0x000033ec   Section        0  bsp.o(i.pushColor)
+    pushColor                                0x000033ed   Thumb Code    18  bsp.o(i.pushColor)
+    i.setAddrWindow                          0x00003400   Section        0  bsp.o(i.setAddrWindow)
+    setAddrWindow                            0x00003401   Thumb Code   106  bsp.o(i.setAddrWindow)
+    i.sqrt32                                 0x00003474   Section        0  lab1.o(i.sqrt32)
+    i.writecommand                           0x00003494   Section        0  bsp.o(i.writecommand)
+    writecommand                             0x00003495   Thumb Code    62  bsp.o(i.writecommand)
+    i.writedata                              0x000034dc   Section        0  bsp.o(i.writedata)
+    writedata                                0x000034dd   Thumb Code    64  bsp.o(i.writedata)
+    .constdata                               0x00003524   Section     1403  bsp.o(.constdata)
+    Font                                     0x00003524   Data        1275  bsp.o(.constdata)
+    Rcmd1                                    0x00003a1f   Data          59  bsp.o(.constdata)
+    Rcmd2green                               0x00003a5a   Data          13  bsp.o(.constdata)
+    Rcmd2red                                 0x00003a67   Data          13  bsp.o(.constdata)
+    Rcmd3                                    0x00003a74   Data          43  bsp.o(.constdata)
+    .constdata                               0x00003aa0   Section       72  texas.o(.constdata)
     .data                                    0x20000000   Section       78  lab1.o(.data)
     soundSum                                 0x20000044   Data           4  lab1.o(.data)
     time                                     0x20000048   Data           4  lab1.o(.data)
@@ -994,30 +994,30 @@ Image Symbol Table
     Task2_Init                               0x000026a9   Thumb Code    26  lab1.o(i.Task2_Init)
     Task3                                    0x000026cd   Thumb Code   296  lab1.o(i.Task3)
     Task3_Init                               0x0000280d   Thumb Code    28  lab1.o(i.Task3_Init)
-    Task4                                    0x00002829   Thumb Code   136  lab1.o(i.Task4)
-    Task4_Init                               0x000028d1   Thumb Code    34  lab1.o(i.Task4_Init)
-    Task5                                    0x000028f9   Thumb Code   150  lab1.o(i.Task5)
-    Task5_Init                               0x000029b1   Thumb Code    88  lab1.o(i.Task5_Init)
-    TaskC                                    0x00002a31   Thumb Code    30  lab1.o(i.TaskC)
-    TaskC_Init                               0x00002a61   Thumb Code     8  lab1.o(i.TaskC_Init)
-    UART_Init                                0x00002a69   Thumb Code   148  texas.o(i.UART_Init)
-    UART_OutChar                             0x00002b0d   Thumb Code    20  texas.o(i.UART_OutChar)
-    UART_OutString                           0x00002b25   Thumb Code    24  texas.o(i.UART_OutString)
-    UART_OutUDec                             0x00002b3d   Thumb Code    42  texas.o(i.UART_OutUDec)
-    UART_OutUDec5                            0x00002b69   Thumb Code    48  texas.o(i.UART_OutUDec5)
-    UART_OutUDec7                            0x00002bad   Thumb Code    48  texas.o(i.UART_OutUDec7)
-    UART_OutUFix1                            0x00002bf1   Thumb Code    46  texas.o(i.UART_OutUFix1)
-    WideTimer3A_Handler                      0x00002c21   Thumb Code    16  bsp.o(i.WideTimer3A_Handler)
-    WideTimer4A_Handler                      0x00002c39   Thumb Code    16  bsp.o(i.WideTimer4A_Handler)
-    WideTimer5A_Handler                      0x00002c51   Thumb Code    16  bsp.o(i.WideTimer5A_Handler)
-    drawaxes                                 0x00002f11   Thumb Code   198  lab1.o(i.drawaxes)
-    main                                     0x00003351   Thumb Code   132  lab1.o(i.main)
-    sqrt32                                   0x00003469   Thumb Code    30  lab1.o(i.sqrt32)
-    Key                                      0x00003a94   Data           8  texas.o(.constdata)
-    Scramble                                 0x00003a9c   Data          32  texas.o(.constdata)
-    DeScramble                               0x00003abc   Data          32  texas.o(.constdata)
-    Region$$Table$$Base                      0x00003adc   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00003afc   Number         0  anon$$obj.o(Region$$Table)
+    Task4                                    0x00002829   Thumb Code   164  lab1.o(i.Task4)
+    Task4_Init                               0x000028f5   Thumb Code    34  lab1.o(i.Task4_Init)
+    Task5                                    0x0000291d   Thumb Code   148  lab1.o(i.Task5)
+    Task5_Init                               0x000029d1   Thumb Code    88  lab1.o(i.Task5_Init)
+    TaskC                                    0x00002a51   Thumb Code    14  lab1.o(i.TaskC)
+    TaskC_Init                               0x00002a6d   Thumb Code     8  lab1.o(i.TaskC_Init)
+    UART_Init                                0x00002a75   Thumb Code   148  texas.o(i.UART_Init)
+    UART_OutChar                             0x00002b19   Thumb Code    20  texas.o(i.UART_OutChar)
+    UART_OutString                           0x00002b31   Thumb Code    24  texas.o(i.UART_OutString)
+    UART_OutUDec                             0x00002b49   Thumb Code    42  texas.o(i.UART_OutUDec)
+    UART_OutUDec5                            0x00002b75   Thumb Code    48  texas.o(i.UART_OutUDec5)
+    UART_OutUDec7                            0x00002bb9   Thumb Code    48  texas.o(i.UART_OutUDec7)
+    UART_OutUFix1                            0x00002bfd   Thumb Code    46  texas.o(i.UART_OutUFix1)
+    WideTimer3A_Handler                      0x00002c2d   Thumb Code    16  bsp.o(i.WideTimer3A_Handler)
+    WideTimer4A_Handler                      0x00002c45   Thumb Code    16  bsp.o(i.WideTimer4A_Handler)
+    WideTimer5A_Handler                      0x00002c5d   Thumb Code    16  bsp.o(i.WideTimer5A_Handler)
+    drawaxes                                 0x00002f1d   Thumb Code   198  lab1.o(i.drawaxes)
+    main                                     0x0000335d   Thumb Code   132  lab1.o(i.main)
+    sqrt32                                   0x00003475   Thumb Code    30  lab1.o(i.sqrt32)
+    Key                                      0x00003aa0   Data           8  texas.o(.constdata)
+    Scramble                                 0x00003aa8   Data          32  texas.o(.constdata)
+    DeScramble                               0x00003ac8   Data          32  texas.o(.constdata)
+    Region$$Table$$Base                      0x00003ae8   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00003b08   Number         0  anon$$obj.o(Region$$Table)
     Time                                     0x20000000   Data           4  lab1.o(.data)
     Steps                                    0x20000004   Data           4  lab1.o(.data)
     Magnitude                                0x20000008   Data           4  lab1.o(.data)
@@ -1103,9 +1103,9 @@ Memory Map of the image
 
   Image Entry point : 0x00000311
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00003c24, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00003c30, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00003afc, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00003b08, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1237,62 +1237,62 @@ Memory Map of the image
     0x000026a8   0x000026a8   0x00000024   Code   RO            6    i.Task2_Init        lab1.o
     0x000026cc   0x000026cc   0x00000140   Code   RO            7    i.Task3             lab1.o
     0x0000280c   0x0000280c   0x0000001c   Code   RO            8    i.Task3_Init        lab1.o
-    0x00002828   0x00002828   0x000000a8   Code   RO            9    i.Task4             lab1.o
-    0x000028d0   0x000028d0   0x00000028   Code   RO           10    i.Task4_Init        lab1.o
-    0x000028f8   0x000028f8   0x000000b8   Code   RO           11    i.Task5             lab1.o
-    0x000029b0   0x000029b0   0x00000080   Code   RO           12    i.Task5_Init        lab1.o
-    0x00002a30   0x00002a30   0x00000030   Code   RO           13    i.TaskC             lab1.o
-    0x00002a60   0x00002a60   0x00000008   Code   RO           14    i.TaskC_Init        lab1.o
-    0x00002a68   0x00002a68   0x000000a4   Code   RO          665    i.UART_Init         texas.o
-    0x00002b0c   0x00002b0c   0x00000018   Code   RO          666    i.UART_OutChar      texas.o
-    0x00002b24   0x00002b24   0x00000018   Code   RO          668    i.UART_OutString    texas.o
-    0x00002b3c   0x00002b3c   0x0000002a   Code   RO          669    i.UART_OutUDec      texas.o
-    0x00002b66   0x00002b66   0x00000002   PAD
-    0x00002b68   0x00002b68   0x00000044   Code   RO          671    i.UART_OutUDec5     texas.o
-    0x00002bac   0x00002bac   0x00000044   Code   RO          672    i.UART_OutUDec7     texas.o
-    0x00002bf0   0x00002bf0   0x0000002e   Code   RO          673    i.UART_OutUFix1     texas.o
-    0x00002c1e   0x00002c1e   0x00000002   PAD
-    0x00002c20   0x00002c20   0x00000018   Code   RO          197    i.WideTimer3A_Handler  bsp.o
-    0x00002c38   0x00002c38   0x00000018   Code   RO          198    i.WideTimer4A_Handler  bsp.o
-    0x00002c50   0x00002c50   0x00000018   Code   RO          199    i.WideTimer5A_Handler  bsp.o
-    0x00002c68   0x00002c68   0x0000004c   Code   RO          200    i.adcinit           bsp.o
-    0x00002cb4   0x00002cb4   0x00000056   Code   RO          201    i.commandList       bsp.o
-    0x00002d0a   0x00002d0a   0x00000002   PAD
-    0x00002d0c   0x00002d0c   0x00000204   Code   RO          202    i.commonInit        bsp.o
-    0x00002f10   0x00002f10   0x00000100   Code   RO           15    i.drawaxes          lab1.o
-    0x00003010   0x00003010   0x00000048   Code   RO          203    i.fillmessage       bsp.o
-    0x00003058   0x00003058   0x00000064   Code   RO          206    i.fillmessage4      bsp.o
-    0x000030bc   0x000030bc   0x00000080   Code   RO          676    i.fillmessage5b     texas.o
-    0x0000313c   0x0000313c   0x000000c4   Code   RO          677    i.fillmessage7b     texas.o
-    0x00003200   0x00003200   0x00000048   Code   RO          678    i.fillmessageb      texas.o
-    0x00003248   0x00003248   0x00000094   Code   RO          208    i.i2cinit           bsp.o
-    0x000032dc   0x000032dc   0x00000050   Code   RO          209    i.lightsensorend    bsp.o
-    0x0000332c   0x0000332c   0x00000024   Code   RO          210    i.lightsensorstart  bsp.o
-    0x00003350   0x00003350   0x00000090   Code   RO           16    i.main              lab1.o
-    0x000033e0   0x000033e0   0x00000012   Code   RO          211    i.pushColor         bsp.o
-    0x000033f2   0x000033f2   0x00000002   PAD
-    0x000033f4   0x000033f4   0x00000074   Code   RO          212    i.setAddrWindow     bsp.o
-    0x00003468   0x00003468   0x0000001e   Code   RO           18    i.sqrt32            lab1.o
-    0x00003486   0x00003486   0x00000002   PAD
-    0x00003488   0x00003488   0x00000048   Code   RO          215    i.writecommand      bsp.o
-    0x000034d0   0x000034d0   0x00000048   Code   RO          216    i.writedata         bsp.o
-    0x00003518   0x00003518   0x0000057b   Data   RO          218    .constdata          bsp.o
-    0x00003a93   0x00003a93   0x00000001   PAD
-    0x00003a94   0x00003a94   0x00000048   Data   RO          680    .constdata          texas.o
-    0x00003adc   0x00003adc   0x00000020   Data   RO         1096    Region$$Table       anon$$obj.o
+    0x00002828   0x00002828   0x000000cc   Code   RO            9    i.Task4             lab1.o
+    0x000028f4   0x000028f4   0x00000028   Code   RO           10    i.Task4_Init        lab1.o
+    0x0000291c   0x0000291c   0x000000b4   Code   RO           11    i.Task5             lab1.o
+    0x000029d0   0x000029d0   0x00000080   Code   RO           12    i.Task5_Init        lab1.o
+    0x00002a50   0x00002a50   0x0000001c   Code   RO           13    i.TaskC             lab1.o
+    0x00002a6c   0x00002a6c   0x00000008   Code   RO           14    i.TaskC_Init        lab1.o
+    0x00002a74   0x00002a74   0x000000a4   Code   RO          665    i.UART_Init         texas.o
+    0x00002b18   0x00002b18   0x00000018   Code   RO          666    i.UART_OutChar      texas.o
+    0x00002b30   0x00002b30   0x00000018   Code   RO          668    i.UART_OutString    texas.o
+    0x00002b48   0x00002b48   0x0000002a   Code   RO          669    i.UART_OutUDec      texas.o
+    0x00002b72   0x00002b72   0x00000002   PAD
+    0x00002b74   0x00002b74   0x00000044   Code   RO          671    i.UART_OutUDec5     texas.o
+    0x00002bb8   0x00002bb8   0x00000044   Code   RO          672    i.UART_OutUDec7     texas.o
+    0x00002bfc   0x00002bfc   0x0000002e   Code   RO          673    i.UART_OutUFix1     texas.o
+    0x00002c2a   0x00002c2a   0x00000002   PAD
+    0x00002c2c   0x00002c2c   0x00000018   Code   RO          197    i.WideTimer3A_Handler  bsp.o
+    0x00002c44   0x00002c44   0x00000018   Code   RO          198    i.WideTimer4A_Handler  bsp.o
+    0x00002c5c   0x00002c5c   0x00000018   Code   RO          199    i.WideTimer5A_Handler  bsp.o
+    0x00002c74   0x00002c74   0x0000004c   Code   RO          200    i.adcinit           bsp.o
+    0x00002cc0   0x00002cc0   0x00000056   Code   RO          201    i.commandList       bsp.o
+    0x00002d16   0x00002d16   0x00000002   PAD
+    0x00002d18   0x00002d18   0x00000204   Code   RO          202    i.commonInit        bsp.o
+    0x00002f1c   0x00002f1c   0x00000100   Code   RO           15    i.drawaxes          lab1.o
+    0x0000301c   0x0000301c   0x00000048   Code   RO          203    i.fillmessage       bsp.o
+    0x00003064   0x00003064   0x00000064   Code   RO          206    i.fillmessage4      bsp.o
+    0x000030c8   0x000030c8   0x00000080   Code   RO          676    i.fillmessage5b     texas.o
+    0x00003148   0x00003148   0x000000c4   Code   RO          677    i.fillmessage7b     texas.o
+    0x0000320c   0x0000320c   0x00000048   Code   RO          678    i.fillmessageb      texas.o
+    0x00003254   0x00003254   0x00000094   Code   RO          208    i.i2cinit           bsp.o
+    0x000032e8   0x000032e8   0x00000050   Code   RO          209    i.lightsensorend    bsp.o
+    0x00003338   0x00003338   0x00000024   Code   RO          210    i.lightsensorstart  bsp.o
+    0x0000335c   0x0000335c   0x00000090   Code   RO           16    i.main              lab1.o
+    0x000033ec   0x000033ec   0x00000012   Code   RO          211    i.pushColor         bsp.o
+    0x000033fe   0x000033fe   0x00000002   PAD
+    0x00003400   0x00003400   0x00000074   Code   RO          212    i.setAddrWindow     bsp.o
+    0x00003474   0x00003474   0x0000001e   Code   RO           18    i.sqrt32            lab1.o
+    0x00003492   0x00003492   0x00000002   PAD
+    0x00003494   0x00003494   0x00000048   Code   RO          215    i.writecommand      bsp.o
+    0x000034dc   0x000034dc   0x00000048   Code   RO          216    i.writedata         bsp.o
+    0x00003524   0x00003524   0x0000057b   Data   RO          218    .constdata          bsp.o
+    0x00003a9f   0x00003a9f   0x00000001   PAD
+    0x00003aa0   0x00003aa0   0x00000048   Data   RO          680    .constdata          texas.o
+    0x00003ae8   0x00003ae8   0x00000020   Data   RO         1096    Region$$Table       anon$$obj.o
 
 
-    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00003afc, Size: 0x00000128, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00003b08, Size: 0x00000128, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x00003afc   0x0000004e   Data   RW           20    .data               lab1.o
-    0x2000004e   0x00003b4a   0x00000002   PAD
-    0x20000050   0x00003b4c   0x00000044   Data   RW          219    .data               bsp.o
-    0x20000094   0x00003b90   0x00000094   Data   RW          681    .data               texas.o
+    0x20000000   0x00003b08   0x0000004e   Data   RW           20    .data               lab1.o
+    0x2000004e   0x00003b56   0x00000002   PAD
+    0x20000050   0x00003b58   0x00000044   Data   RW          219    .data               bsp.o
+    0x20000094   0x00003b9c   0x00000094   Data   RW          681    .data               texas.o
 
 
-    Execution Region ER_ZI (Exec base: 0x20000128, Load base: 0x00003c24, Size: 0x00000a50, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_ZI (Exec base: 0x20000128, Load base: 0x00003c30, Size: 0x00000a50, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1312,13 +1312,13 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
       6040        662       1403         68         12      33014   bsp.o
-      2178        350          0         78       2000      14108   lab1.o
+      2190        352          0         78       2000      14156   lab1.o
        468         50          0          0          0        523   profile.o
        292         18        620          0        512       5660   startup_tm4c123.o
       3696        830         72        148         20      18295   texas.o
 
     ----------------------------------------------------------------------
-     12692       1910       2128        296       2544      71600   Object Totals
+     12704       1912       2128        296       2544      71648   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         18          0          1          2          0          0   (incl. Padding)
 
@@ -1367,15 +1367,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     12972       1926       2128        296       2640      67032   Grand Totals
-     12972       1926       2128        296       2640      67032   ELF Image Totals
-     12972       1926       2128        296          0          0   ROM Totals
+     12984       1928       2128        296       2640      67080   Grand Totals
+     12984       1928       2128        296       2640      67080   ELF Image Totals
+     12984       1928       2128        296          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                15100 (  14.75kB)
+    Total RO  Size (Code + RO Data)                15112 (  14.76kB)
     Total RW  Size (RW Data + ZI Data)              2936 (   2.87kB)
-    Total ROM Size (Code + RO Data + RW Data)      15396 (  15.04kB)
+    Total ROM Size (Code + RO Data + RW Data)      15408 (  15.05kB)
 
 ==============================================================================
 

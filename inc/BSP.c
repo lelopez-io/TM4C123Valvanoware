@@ -1937,13 +1937,13 @@ void BSP_LCD_Drawaxes(uint16_t axisColor, uint16_t bgColor, char *xLabel,
   Yrange = Ymax - Ymin;
   TimeIndex = 0;
   PlotBGColor = bgColor;
-  BSP_LCD_FillRect(0, 17, 111, 111, bgColor);
+  BSP_LCD_FillRect(0, 32, 111, 111, bgColor);
   BSP_LCD_DrawFastHLine(10, 117, 101, axisColor);
-  BSP_LCD_DrawFastVLine(10, 17, 101, axisColor);
-  for(i=20; i<=110; i=i+10){
+  BSP_LCD_DrawFastVLine(10, 32, 86, axisColor);
+  for(i=32; i<=110; i=i+10){
     BSP_LCD_DrawPixel(i, 118, axisColor);
   }
-  for(i=17; i<117; i=i+10){
+  for(i=32; i<117; i=i+10){
     BSP_LCD_DrawPixel(9, i, axisColor);
   }
   i = 50;
@@ -1953,7 +1953,7 @@ void BSP_LCD_Drawaxes(uint16_t axisColor, uint16_t bgColor, char *xLabel,
     xLabel++;
   }
   if(*yLabel2){ // two labels
-    i = 26;
+    i = 32;
     while((*yLabel2) && (i < 50)){
       BSP_LCD_DrawChar(0, i, *yLabel2, label2Color, bgColor, 1);
       i = i + 8;
@@ -1969,6 +1969,49 @@ void BSP_LCD_Drawaxes(uint16_t axisColor, uint16_t bgColor, char *xLabel,
     yLabel1++;
   }
 }
+//void BSP_LCD_Drawaxes(uint16_t axisColor, uint16_t bgColor, char *xLabel,
+//  char *yLabel1, uint16_t label1Color, char *yLabel2, uint16_t label2Color,
+//  int32_t ymax, int32_t ymin){
+//  int i;
+//  // assume that ymax > ymin
+//  Ymax = ymax;
+//  Ymin = ymin;
+//  Yrange = Ymax - Ymin;
+//  TimeIndex = 0;
+//  PlotBGColor = bgColor;
+//  BSP_LCD_FillRect(0, 17, 111, 111, bgColor);
+//  BSP_LCD_DrawFastHLine(10, 117, 101, axisColor);
+//  BSP_LCD_DrawFastVLine(10, 17, 101, axisColor);
+//  for(i=20; i<=110; i=i+10){
+//    BSP_LCD_DrawPixel(i, 118, axisColor);
+//  }
+//  for(i=17; i<117; i=i+10){
+//    BSP_LCD_DrawPixel(9, i, axisColor);
+//  }
+//  i = 50;
+//  while((*xLabel) && (i < 100)){
+//    BSP_LCD_DrawChar(i, 120, *xLabel, axisColor, bgColor, 1);
+//    i = i + 6;
+//    xLabel++;
+//  }
+//  if(*yLabel2){ // two labels
+//    i = 26;
+//    while((*yLabel2) && (i < 50)){
+//      BSP_LCD_DrawChar(0, i, *yLabel2, label2Color, bgColor, 1);
+//      i = i + 8;
+//      yLabel2++;
+//    }
+//    i = 82;
+//  }else{ // one label
+//    i = 42;
+//  }
+//  while((*yLabel1) && (i < 120)){
+//    BSP_LCD_DrawChar(0, i, *yLabel1, label1Color, bgColor, 1);
+//    i = i + 8;
+//    yLabel1++;
+//  }
+//}
+
 
 
 // ------------BSP_LCD_PlotPoint------------
@@ -1983,8 +2026,9 @@ void BSP_LCD_Drawaxes(uint16_t axisColor, uint16_t bgColor, char *xLabel,
 // Assumes: BSP_LCD_Init() and BSP_LCD_Drawaxes() have been called
 void BSP_LCD_PlotPoint(int32_t data1, uint16_t color1){
   data1 = ((data1 - Ymin)*100)/Yrange;
-  if(data1 > 98){
-    data1 = 98;
+	//CUSTOM_CHANGE
+  if(data1 > 83){
+    data1 = 83;
     color1 = LCD_RED;
   }
   if(data1 < 0){
@@ -1993,6 +2037,8 @@ void BSP_LCD_PlotPoint(int32_t data1, uint16_t color1){
   }
   BSP_LCD_DrawPixel(TimeIndex + 11, 116 - data1, color1);
   BSP_LCD_DrawPixel(TimeIndex + 11, 115 - data1, color1);
+//	BSP_LCD_DrawPixel(TimeIndex + 11, 131 - data1, color1);
+//  BSP_LCD_DrawPixel(TimeIndex + 11, 130 - data1, color1);
 }
 
 
@@ -2008,7 +2054,7 @@ void BSP_LCD_PlotIncrement(void){
   if(TimeIndex > 99){
     TimeIndex = 0;
   }
-  BSP_LCD_DrawFastVLine(TimeIndex + 11, 17, 100, PlotBGColor);
+  BSP_LCD_DrawFastVLine(TimeIndex + 11, 32, 85, PlotBGColor);
 }
 /* ********************** */
 /*   End of LCD Section   */
