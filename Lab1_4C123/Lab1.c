@@ -504,7 +504,7 @@ void Task5(void){
 	BSP_LCD_SetCursor(5, 	2); BSP_LCD_OutUDec4(x, 						JOYCOLORX);
   BSP_LCD_SetCursor(16, 0); BSP_LCD_OutUDec4(LightData/100, LIGHTCOLOR);
   BSP_LCD_SetCursor(16, 1); BSP_LCD_OutUDec4(SoundRMS,      SOUNDCOLOR);
-	BSP_LCD_SetCursor(16, 	2); BSP_LCD_OutUDec4(y, 					JOYCOLORY);
+	BSP_LCD_SetCursor(16, 2); BSP_LCD_OutUDec4(y, 						JOYCOLORY);
 	
 }
 /* ****************************************** */
